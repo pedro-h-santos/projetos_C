@@ -1,7 +1,11 @@
 #include <stdio.h>
+int adicao();
+int subtracao();
+int multiplicacao();
+int divisao();
+
 main(){
-    
-    
+        
     int num1,num2;
     num1=3;
     num2=2;
@@ -10,22 +14,22 @@ main(){
     printf("Multiplicação = %d\n",multipilacacao(num1,num2));
     printf("Divisão = %d\n",divisao(num1,num2));
 }
-    adicao(int num1,int num2){
+    int adicao(int num1,int num2){
         int res;
         res = num1+num2;
         return res;
     }
-    subtracao(int num1,int num2){
+    int subtracao(int num1,int num2){
         int res;
         res =  num1-num2;
         return res;
     }
-    multipilacacao(int num1,int num2){
+    int multipilacacao(int num1,int num2){
         int res;
         res = num1*num2;
         return res;
     }
-    divisao(int num1, int num2){
+    int divisao(int num1, int num2){
         int res;
         res = num1/num2;
         return res;
